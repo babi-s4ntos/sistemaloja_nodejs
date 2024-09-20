@@ -1,0 +1,26 @@
+<%- include ('partials/navbar.ejs') %>
+<%- include ('partials/header.ejs') %>
+   
+<div class="fundo">
+    <div class="" style="width: 18rem;">
+        <img class="imgPerfil" width="300px" src="/img/perfilFT.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title txtPerfil fw-bold">Diego_prof</h5>
+        </div>
+      </div>
+    </div>
+    
+    <table class="tabelaCliente fw-bold">
+        <tr>
+            <th class="titleCT fw-bold">Dados:</th>
+        </tr>
+        <% clientes.forEach((clientes) => { %>
+        <tr>
+            <td> <%= clientes.dados %> </td>
+            <td> <%= clientes.valor %> </td>
+        </tr>
+        <% }) %>
+    </table>    
+    
+
+<%- include ('partials/footer.ejs') %>

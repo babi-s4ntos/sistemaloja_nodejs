@@ -1,0 +1,27 @@
+<%- include ('partials/navbar.ejs') %>
+<%- include ('partials/header.ejs') %>
+
+<h4 class="tituloPedidos fw-bold">Pedidos: </h4>
+<table width="1280px" class="tabelaPedidos fw-bold">
+    <tr>
+        <th class="titlePDD" >Nome do Cliente:</th>
+        <th class="titlePDD" >Id Pedido:</th>
+        <th class="titlePDD" >Sabores escolhidos:</th>
+        <th class="titlePDD">Preço:</th>
+    </tr>
+    <% pedidos.forEach((pedido) => { %>
+    <tr>
+        <td> <%= pedido.nome %> </td>
+        <td> <%= pedido.IdPedido %> </td>
+        <td> <%= pedido.produto %> </td>
+        <td> <%= pedido.valor %> </td>
+    </tr>
+    <% }) %>
+</table>
+
+<a href="/clientes" class="cardesBTN btn btn1">Finalizar Compra</a>
+<a href="/produtos" class="cardesBTN btn btn2">Continuar Comprando </a>
+
+
+
+<%- include ('partials/footer.ejs') %>
