@@ -1,0 +1,202 @@
+body {
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style: square;
+    line-height: 30px;
+}
+
+a {
+    color:#0ba7c6;
+    text-decoration: none;
+    padding: 20px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+
+/* FOOTER */
+footer{
+    color: #DBBCFE;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #331d1d;
+    width: 2000px;
+    height: 200px;
+}
+
+/* FUNDO */
+.fundo{
+    background-color: #DBBCFE;
+    color: #331d1d;
+}
+
+/* NAVBAR */
+.navb{
+    background-color: #DBBCFE;
+    color: #ffff;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-bottom: 62px;
+    margin-top: 20px;
+    border: 5px solid #331d1d;
+}
+
+/* BANNER */
+.banner{
+    margin-top: -200px;
+    margin-left: -50px;
+}
+
+/* HOME */
+.conteudo{
+    margin-left: 320px;
+}
+.imgcard{
+    border-radius: 15px;
+    margin-left: 8px;
+
+}
+.cardes{
+    border-radius: 15px;
+    margin-left: 1rgb(183, 0, 255)
+}
+.cardesTXT{
+    margin-left: 60px;
+    color: #331d1d;
+}
+.cardesBTN{ 
+    margin-left: 60px;
+    background-color: #331d1d;
+    color: #DBBCFE;
+}
+.cardesBTN2{ 
+    background-color: #331d1d;
+    color: #DBBCFE;
+}
+
+.cardesTXTVL{
+    margin-left: -30px;
+    color: rgb(255, 0, 140);
+    font-size: 40px;
+    font-family:monospace;
+    text-align: center;
+}
+
+/* PERFIL */
+.imgPerfil{
+    margin-top: -30px;
+    margin-left: 800px;
+
+}
+.txtPerfil{
+    margin-left: 895px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.imgIcone2{
+    margin-left: 970px;
+    margin-top: -65px;
+}
+.imgfiltro{
+    filter:drop-shadow( -6px 5px 30px #DBBCFE);
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.txt{
+    background-color: #DBBCFE;
+    color: #331d1d;
+    border-radius: 20px;
+    margin-top: -200px;
+    margin-left: 600px;
+}
+
+/* PEDIDOS */
+.tabelaPedidos{
+    margin-left:17%;
+    margin-top: 40px;
+    width: -50px;
+    font-size: 30px;
+    color: #331d1d;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 57px #ff00c856;
+
+}
+
+.titlePDD{
+    width:30%;
+    color: rgb(255, 0, 140);
+}
+
+.titlePDD4{
+    width:30%;
+    color: rgb(255, 0, 140);
+    margin-left: -100px;
+}
+
+.tituloPedidos{
+    color: #331d1d;
+    font-size: 35px;
+    margin-left:48%;
+    margin-top: 10px;
+}
+.btn1{
+    margin-top: 60px;
+    margin-left: 40%;
+}
+.btn2{
+    margin-top: 60px;
+    margin-left: 3%;
+}
+
+/* CLIENTES */
+.titleCT{
+    width:36%;
+    color: rgb(255, 0, 140);
+}
+.tabelaCliente{
+    margin-left:38%;
+    margin-top: 70px;
+    border: 5px;
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    font-size: 30px;
+    background-color: #DBBCFE;
+    color: #331d1d;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 57px #ff00c856;
+    text-align:left;
+}
+
+.imgDonuts{
+    align-items: center;
+    margin-left: 38%;
+    
+}
+.donutsTXT{
+    color: #331d1d;
+    font-size: 30px;
+    text-align: center;
+}
+.donutsBTN{
+    margin-left: 45%;
+    background-color: #331d1d;
+    color: #DBBCFE;
+
+}
+
+.cardes:hover{
+    transition: 1s;
+    transform: scale(1.10);
+}
